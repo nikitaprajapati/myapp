@@ -8,6 +8,8 @@
         PhoneGap Team
     </author>
     <content src="index.html" />
+	<preference name='phonegap-version' value='cli-6.5.0' />
+<preference name='pgb-builder-version' value='2' />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.2.4" />
@@ -26,7 +28,7 @@
     </platform>
     <!-- Splashscreen config --> 
 	<splash src="splash.png" />
-      <!--preference name="SplashScreen" value="screen"/--> 
+      <preference name="SplashScreen" value="screen"/> 
       <preference name="SplashScreenDelay" value="10000"/>
       
     <access origin="*" />
