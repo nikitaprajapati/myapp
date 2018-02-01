@@ -24,7 +24,8 @@
     <icon src="icon.png" />
     <platform name="android">  
     </platform>
-    <!-- Splashscreen config -->  
+    <!-- Splashscreen config --> 
+	  <splash src="splash.png" />	
       <preference name="SplashScreen" value="screen"/>  
       <preference name="SplashScreenDelay" value="10000"/>
       
